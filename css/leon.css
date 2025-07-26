@@ -233,10 +233,10 @@ body {
     z-index: -1;
 }
 @media (max-width:992px) {
-    .image-h img {
+    .image-h::before {
         display: none;
     }
-    .image-h::before {
+    .spe {
         display: none;
     }
 }
